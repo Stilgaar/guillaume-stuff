@@ -1,0 +1,26 @@
+.lp-pastry-item
+{
+	font-size: 3em;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+.lp-pastry-item > img
+{
+	margin-bottom: 20px;
+}
+
+.lp-pastry-item-cover
+{
+    height: 250px;
+	width: 250px;
+	border: 1px solid rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 1);
+	border-radius: 20px;
+	object-fit: cover;
+	box-shadow: 5px 5px rgba(67, 0, 98, 0.4), 10px 10px rgba(67, 0, 98, 0.3), 15px 15px rgba(67, 0, 98, 0.2), 20px 20px rgba(67, 0, 98, 0.1), 25px 25px rgba(67, 0, 98, 0.05);
+}

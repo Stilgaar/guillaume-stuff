@@ -1,0 +1,30 @@
+  .concept-style
+  {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: left;
+  }
+
+  .concept-style > p
+  {
+    text-align: justify;
+    font-size: 2em;
+    margin: 0 25px 25px 25px;
+  }
+
+  .banderole_gateaux {
+    display: flex;
+    justify-content : center;
+    align-items : center;
+  }
+
+  .banderole_gateaux > img
+  {
+    width: 1280px;
+    height: auto;
+    margin-left: 25px;
+  }
+

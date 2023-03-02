@@ -1,0 +1,43 @@
+.lp-configurateur
+{
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lp-configurateur > h2
+{
+  margin-top: 0;
+  padding-bottom: 50px;
+  padding-top: -50px;
+}
+
+.lp-stack
+{
+  font-size: 3em;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  list-style-type: none;
+  width: 400px;
+  background-color: skyblue;
+  margin-top: 0px;
+  border-left: 5px #187498 solid;
+  border-right: 5px #187498 solid;
+  border-bottom: 1px #000000 solid;
+}
+
+.lp-stack:hover
+{
+  font-weight: bold;
+}
+
+.lp-stack:nth-child(1)
+{
+  border-top: 5px #187498 solid;
+}
+
+.lp-stack:nth-child(6)
+{
+  margin-bottom: 50px;
+}

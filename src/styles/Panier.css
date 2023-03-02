@@ -1,0 +1,58 @@
+.lp-tot
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 50%;
+}
+
+.lp-tot button
+{
+	margin-right: 20px;
+	margin-left: 20px;
+	height: 30px;
+}
+
+.lp-cart-nonvoid {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	width: 100%;
+}
+
+.lp-cart
+{
+	color: white;
+	font-size: 2em;
+	background-color: #DC3458;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+}
+
+.lp-cart-add-button {
+	margin-right: 32px;
+	cursor: pointer;
+}
+
+.lp-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+}
+
+.lp-cart-closed {
+	padding: 32px;
+	width: 100px;
+}
+
+.lp-cart-closed > button {
+	color: black;
+}
